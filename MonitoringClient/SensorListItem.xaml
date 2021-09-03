@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="MonitoringClient.SensorListItem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MonitoringClient"
+             mc:Ignorable="d" Height="100" MinWidth="198" Width="Auto" MouseDoubleClick="UserControl_MouseDoubleClick">
+    <Grid>
+        <Rectangle Fill="#FFF2E2FF" HorizontalAlignment="Left" Height="100" Stroke="Black" VerticalAlignment="Top" Width="198" RadiusY="12.7" RadiusX="12.7"/>
+        <Label Content="Имя:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Name="NameLabel" Content="" HorizontalAlignment="Left" Margin="45,10,0,0" VerticalAlignment="Top" Width="143"/>
+        <Label Content="Макс.:" HorizontalAlignment="Left" Margin="10,34,0,0" VerticalAlignment="Top"/>
+        <Label Name="MaxLabel"  Content="" HorizontalAlignment="Left" Margin="52,34,0,0" VerticalAlignment="Top" Width="47"/>
+        <Label Content="Мин.:" HorizontalAlignment="Left" Margin="99,34,0,0" VerticalAlignment="Top"/>
+        <Label Name="MinLabel"  Content="" HorizontalAlignment="Left" Margin="137,34,0,0" VerticalAlignment="Top" Width="47"/>
+        <Label Content="Знач:" HorizontalAlignment="Left" Margin="10,63,0,0" VerticalAlignment="Top"/>
+        <Label Name="ValueLabel"  Content="" HorizontalAlignment="Left" Margin="47,63,0,0" VerticalAlignment="Top" Width="141"/>
+
+    </Grid>
+</UserControl>
